@@ -6,7 +6,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 
 setup(
     name='django-exception-blame',
-    version='0.1',
+    version='0.1.1',
     packages=['exceptionblame'],
     description='Show blame in a exception.',
     long_description=README,
