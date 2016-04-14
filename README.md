@@ -5,7 +5,7 @@ A django middleware for exception blaming
 
 ## Overview
 
-Basically it looks in the exception traceback and search for the line number of the first file of your reopsitory that raised the exception. It uses git to blame the author of that file and line number, then adds the info to the request metadata.
+Basically it looks in the exception traceback and search for the line number of the first file of your reopsitory that raised the exception. It uses git to blame the author of that file and line number, then adds the info to the request metadata with key `BLAMED_DEVELOPER`.
 
 Only for use with `DEBUG=True`
 
